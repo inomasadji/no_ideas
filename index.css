@@ -1,0 +1,32 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+}
+
+body {
+    background-color: #000000;
+}
+
+.content {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    background-color: #000;
+    position: relative;
+}
+
+#canvas {
+    background-color: #000000;
+    border: 2px solid lime;
+}
+
+#score-board {
+    color: lime;
+    position: absolute;
+    right: calc(100% - 800px);
+    top: 440px;
+}
